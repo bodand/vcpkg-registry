@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index ace7656..deaded2 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -113,7 +113,7 @@ install(TARGETS "${${PROJECT_NAME}_TARGET}"
+ # headers
+ install(DIRECTORY
+         "${${PROJECT_NAME}_HEADER_PATH}"
+-        DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}"
++        DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}/include"
+         FILES_MATCHING PATTERN "*.hpp"
+         )
+ 
