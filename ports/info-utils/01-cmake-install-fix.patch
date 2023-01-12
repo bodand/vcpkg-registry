@@ -7,7 +7,7 @@ index ace7656..deaded2 100644
  install(DIRECTORY
          "${${PROJECT_NAME}_HEADER_PATH}"
 -        DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}"
-+        DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}/include"
++        DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}/info"
          FILES_MATCHING PATTERN "*.hpp"
          )
  
