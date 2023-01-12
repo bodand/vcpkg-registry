@@ -1,0 +1,15 @@
+= bodand's vcpkg-registry
+
+This is a vcpkg-registry used and maintained by yours truly.
+
+It is not recommended to rely on it, since it is solely for my purposes,
+and may do some things that are not acceptable in a general setting,
+but are completely fine for myself.
+
+== License
+
+The "code" in this repository is available under the 0BSD license.
+For more information see `LICENSE.adoc`.
+
+Each port may have widely different licensing.
+
