@@ -1,0 +1,12 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index ace7656..f9d560f 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -37,6 +37,7 @@ project(InfoUtils
+         LANGUAGES CXX)
+ 
+ include(GNUInstallDirs)
++include(CMakePackageConfigHelpers)
+ 
+ if (CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR)
+     set(${PROJECT_NAME}_MAIN On)
