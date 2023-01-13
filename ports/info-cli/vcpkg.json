@@ -1,0 +1,19 @@
+{
+    "name": "info-cli",
+    "version": "2023-01-13",
+    "port-version": 0,
+    "description": "Command line parser library",
+    "homepage": "https://github.com/bodand/InfoCI",
+    "license": "BSD-3-Clause",
+    "dependencies": [
+        {
+            "name": "vcpkg-cmake",
+            "host": true
+        },
+        {
+            "name": "vcpkg-cmake-config",
+            "host": true
+        },
+        "info-utils"
+    ]
+}
