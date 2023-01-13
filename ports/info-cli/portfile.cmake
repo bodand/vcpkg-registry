@@ -6,8 +6,8 @@ endif ()
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO "bodand/InfoCLI"
-    REF "e1b5616cf50695597216ffad67b4c465308222ee"
-    SHA512 "fd0498352510c0a581641ba7c9541b2885149fda8468abf142b82b59c739a3b1094cf33dc49f20701f9028ce58e3c4ed79bf393fa3afb0f7555b9fe94cf8a2b0")
+    REF "7e9ee49f6979825fdba046eb58bf70120ebcb1e3"
+    SHA512 "13b779c6229473b6bd9e57b2192c6fd1351ef63289f43d869d9928b7f9aa046da6b14f0b8fda2d92c823b47a94e5c300e1647b46fb056ecf6aaa71fcfc09fb6c")
 
 vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}"
                       OPTIONS
