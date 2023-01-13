@@ -1,13 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO "bodand/InfoUtils"
-    REF "ebfdde12654d6d75d5518e9e64d26c85bd002005"
-    SHA512 "191685c9c0a25d91c38012f13964924de718099d6f92ecc464e776313e1348a520ad9ee5a6ca3607ab54c9ba5521990d7beaa3648e1ca832288411e77b9e017d"
-    PATCHES
-        "00-cmake-include-fix.patch"
-        "01-cmake-install-fix.patch"
-        "02-cmake-disable-pseudo-pkgmgr.patch" # this wasn't doing anything since tests are disabled, but just to make sure
-        )
+    REF "ad502245f96bb8674e5f40dc6195421622df9e92"
+    SHA512 "e1eff8dc2495d81f49666573daef15f350517fb4c190c00ff5e13e8531326cde49d5c17a0a3d8e0317927e77e71f410948996941651b12b978f5f1ef791c69f8")
 
 vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}"
                       OPTIONS
