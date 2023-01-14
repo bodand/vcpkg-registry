@@ -6,8 +6,8 @@ endif ()
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO "bodand/InfoCLI"
-    REF "7e9ee49f6979825fdba046eb58bf70120ebcb1e3"
-    SHA512 "13b779c6229473b6bd9e57b2192c6fd1351ef63289f43d869d9928b7f9aa046da6b14f0b8fda2d92c823b47a94e5c300e1647b46fb056ecf6aaa71fcfc09fb6c")
+    REF "eac96f726305aeac6e99ed7499f1ab408aff2065"
+    SHA512 "7e97652f9ef7d07d254a70b437cb99e4bb153b0fb41614ce999403047d8de3b70b149cd53c2e9fbf81365ed43e09a091a014f8e89e68211b88de78a1")
 
 vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}"
                       OPTIONS
@@ -18,7 +18,5 @@ vcpkg_cmake_config_fixup(PACKAGE_NAME "InfoCLI"
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 
-file(INSTALL "${SOURCE_PATH}/LICENSE" 
-     DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}"
-     RENAME copyright)
+vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
 

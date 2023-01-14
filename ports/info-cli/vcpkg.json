@@ -1,6 +1,6 @@
 {
     "name": "info-cli",
-    "version": "2023-01-14",
+    "version": "2023-01-14.2",
     "port-version": 0,
     "description": "Command line parser library",
     "homepage": "https://github.com/bodand/InfoCI",
